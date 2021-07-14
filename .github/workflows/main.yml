@@ -26,7 +26,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-          echo Hello, world!
           echo $GITHUB_HEAD_REF
           echo $GITHUB_BASE_REF
 
